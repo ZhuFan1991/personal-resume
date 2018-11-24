@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cc39a4a3-6f3f-4106-967c-6337cefdde9f" name="Default" comment="更新练习一笔记">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiences/练习一:CSS弹性盒子练习及笔记/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiences/练习一:CSS弹性盒子练习及笔记/exp-1.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiences/练习一:CSS弹性盒子练习及笔记/exp-2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiences/练习一:CSS弹性盒子练习及笔记/exp-3.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiences/练习一:CSS弹性盒子练习及笔记/exp-4.html" afterPath="" />
+    <list default="true" id="cc39a4a3-6f3f-4106-967c-6337cefdde9f" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiences/exp-1.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiences/exp-2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiences/exp-3.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiences/exp-4.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="personal-resume.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -166,10 +163,6 @@
               <option name="myItemId" value="experiences" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EXP-1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -280,7 +273,7 @@
       <updated>1542994458812</updated>
       <workItem from="1542994460230" duration="84000" />
       <workItem from="1542994553580" duration="14922000" />
-      <workItem from="1543078827242" duration="2657000" />
+      <workItem from="1543078827242" duration="2721000" />
     </task>
     <task id="LOCAL-00001" summary="更新README文件, 新增测试代码, 新增几张截图">
       <created>1543069116116</created>
@@ -310,17 +303,24 @@
       <option name="project" value="LOCAL" />
       <updated>1543080564356</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="update">
+      <created>1543081568305</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1543081568305</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17663000" />
+    <option name="totallyTimeSpent" value="17727000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1440" y="-42" width="1920" height="1080" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.08794102" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.08794102" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970297" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970297" sideWeight="0.50289625" order="7" side_tool="true" content_ui="tabs" />
@@ -372,7 +372,8 @@
     <MESSAGE value="更新README文件, 新增测试代码, 新增几张截图" />
     <MESSAGE value="Merge branch 'master' of github.com:ZhuFan1991/personal-resume&#10;&#10;# Conflicts:&#10;" />
     <MESSAGE value="更新练习一笔记" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新练习一笔记" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
