@@ -1,6 +1,6 @@
 # CSS弹性盒子练习
 
-[exp-1](https://github.com/ZhuFan1991/personal-resume/blob/master/experiences/Exp-1/exp-1.html)([预览效果](exp-1.html))
+示例一: [exp-1](exp-1.html)
 
 你可以看到这个页面有一个含有顶级标题的 `<header>` 元素，和一个包含三个 `<article>` 的 `<section>` 元素。使用这些来创建一个非常的标准三列布局，如下图所示：
 
@@ -48,9 +48,11 @@ flex 模型说明:
 ---
 ### 操作三：通过flex-wrap属性让弹性盒子在必要时换行
 
+示例二: [exp-2](exp-2.html)
+
 **说明：**
 
-在布局中使用定宽或者定高的时候，可能会有一个问题：即处于容器中的弹性盒子子元素会溢出，破坏了布局。如图所示[exp-2](https://github.com/ZhuFan1991/personal-resume/blob/master/experiences/Exp-1/exp-2.html)([预览效果](exp-2.html)):
+在布局中使用定宽或者定高的时候，可能会有一个问题：即处于容器中的弹性盒子子元素会溢出，破坏了布局。如图所示:
 
 ![no_flex-wap](https://raw.githubusercontent.com/ZhuFan1991/personal-resume/master/imgdata/no_flex-wrap.png)
 
@@ -141,9 +143,11 @@ article:nth-of-type {
 ---
 ### 操作七: 使用align-items和justify-content控制水平和垂直对齐
 
+示例三: [exp-3](exp-3.html) 
+
 **说明:**
 
-从一个新例子开始[exp-1](https://github.com/ZhuFan1991/personal-resume/blob/master/experiences/Exp-1/exp-3.html)([预览效果](exp-3.html))— 可以看到一个整洁，灵活的按钮/工具栏。 如图所示:
+可以看到一个整洁，灵活的按钮/工具栏。 如图所示:
 
 ![exp-3_button.png](https://raw.githubusercontent.com/ZhuFan1991/personal-resume/master/imgdata/exp-3_button.png)
 
@@ -226,9 +230,11 @@ button:last-child {
 
 ### 操作九: flex嵌套
 
+示例四: [exp-4](exp-4.html)
+
 **说明:**
 
-弹性盒子也能创建一些颇为复杂的布局。设置一个元素为flex项目，那么他同样成为一个 flex 容器，它的直接子节点也表现为 `flexible box` :  [exp-1](https://github.com/ZhuFan1991/personal-resume/blob/master/experiences/Exp-1/exp-4.html)([预览效果](exp-4.html))。 这个例子中一个 `<section>` 元素包含了三个 `<article>` 元素。第三个 `<article>` 元素包含了三个 `<div>` ：
+弹性盒子也能创建一些颇为复杂的布局。设置一个元素为flex项目，那么他同样成为一个 flex 容器，它的直接子节点也表现为 flexible box。 这个例子中一个 `<section>` 元素包含了三个 `<article>` 元素。第三个 `<article>` 元素包含了三个 `<div>` ：
 ```
 section - article
           article
