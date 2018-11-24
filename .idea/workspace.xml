@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc39a4a3-6f3f-4106-967c-6337cefdde9f" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiences/exp-1.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiences/exp-2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiences/exp-3.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiences/exp-4.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experiences/EXP-1/README.md" afterPath="$PROJECT_DIR$/experiences/EXP-1/README.md" />
     </list>
     <ignored path="personal-resume.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -43,11 +40,11 @@
         </entry>
       </file>
       <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/experiences/EXP-1/README.md">
+        <entry file="file://$PROJECT_DIR$/experiences/Exp-1/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-3337">
-                <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+              <first_editor relative-caret-position="-97">
+                <caret line="230" column="77" selection-start-line="230" selection-start-column="77" selection-end-line="230" selection-end-column="77" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -92,6 +89,7 @@
         <option value="$PROJECT_DIR$/experiences/练习一:CSS弹性盒子练习及笔记/README.md" />
         <option value="$PROJECT_DIR$/experiences/EXP-1/README.md" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/experiences/Exp-1/README.md" />
       </list>
     </option>
   </component>
@@ -161,6 +159,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="experiences" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Exp-1" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -273,7 +275,7 @@
       <updated>1542994458812</updated>
       <workItem from="1542994460230" duration="84000" />
       <workItem from="1542994553580" duration="14922000" />
-      <workItem from="1543078827242" duration="2721000" />
+      <workItem from="1543078827242" duration="3660000" />
     </task>
     <task id="LOCAL-00001" summary="更新README文件, 新增测试代码, 新增几张截图">
       <created>1543069116116</created>
@@ -314,13 +316,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17727000" />
+    <option name="totallyTimeSpent" value="18666000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1440" y="-42" width="1920" height="1080" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.08794102" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.08794102" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970297" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970297" sideWeight="0.50289625" order="7" side_tool="true" content_ui="tabs" />
@@ -523,11 +525,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/experiences/EXP-1/README.md">
+    <entry file="file://$PROJECT_DIR$/experiences/Exp-1/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-3337">
-            <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+          <first_editor relative-caret-position="-97">
+            <caret line="230" column="77" selection-start-line="230" selection-start-column="77" selection-end-line="230" selection-end-column="77" />
             <folding />
           </first_editor>
           <second_editor />

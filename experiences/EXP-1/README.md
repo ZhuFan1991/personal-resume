@@ -1,10 +1,10 @@
 # CSS弹性盒子练习
 
-([exp-1](experiences/EXP-1/exp-1.html))
+[exp-1](https://github.com/ZhuFan1991/personal-resume/blob/master/experiences/Exp-1/exp-1.html)([预览效果](exp-1.html))
 
 你可以看到这个页面有一个含有顶级标题的 `<header>` 元素，和一个包含三个 `<article>` 的 `<section>` 元素。使用这些来创建一个非常的标准三列布局，如下图所示：
 
-![img-1](/imgdata/display.png)
+![img-1](https://raw.githubusercontent.com/ZhuFan1991/personal-resume/master/imgdata/display.png)
 
 ---
 
@@ -50,7 +50,7 @@ flex 模型说明:
 
 **说明：**
 
-在布局中使用定宽或者定高的时候，可能会有一个问题：即处于容器中的弹性盒子子元素会溢出，破坏了布局。如图所示（[exp-2](/experiences/练习一/CSS弹性盒子练习及笔记/exp-2.html)）：
+在布局中使用定宽或者定高的时候，可能会有一个问题：即处于容器中的弹性盒子子元素会溢出，破坏了布局。如图所示[exp-2](https://github.com/ZhuFan1991/personal-resume/blob/master/experiences/Exp-1/exp-2.html)([预览效果](exp-2.html)):
 
 ![no_flex-wap](https://raw.githubusercontent.com/ZhuFan1991/personal-resume/master/imgdata/no_flex-wrap.png)
 
@@ -61,7 +61,7 @@ flex 模型说明:
 
 效果如下图所示：
 
-![flex-wrap](imgdata/flex-wap.png)
+![flex-wrap](https://raw.githubusercontent.com/ZhuFan1991/personal-resume/master/imgdata/flex-wap.png)
 
 现在我们有了多行弹性盒子，任何溢出的元素将被移到下一行。在 **article** 元素上设置的 flex:200px规则，意味着每个元素的宽度至少是200px。
 
@@ -105,7 +105,7 @@ article:nth-of-type(3) {
 ```
 效果如图所示:
 
-![flex_space.png](imgdata/flex_space.png)
+![flex_space.png](https://raw.githubusercontent.com/ZhuFan1991/personal-resume/master/imgdata/flex_space.png)
 
 可以看到第三个 `<article>` 元素占用了两倍的可用宽度, 前两个 flex 项各有一个，因此它们占用每个可用空间的1/4。 第三个有两个单位，所以它占用2/4或这说是1/2的可用空间。
 
@@ -143,9 +143,9 @@ article:nth-of-type {
 
 **说明:**
 
-从一个新例子开始（[点击查看代码](master/experiences/exp-3.html))— 可以看到一个整洁，灵活的按钮/工具栏。 如图所示:
+从一个新例子开始[exp-1](https://github.com/ZhuFan1991/personal-resume/blob/master/experiences/Exp-1/exp-3.html)([预览效果](exp-3.html))— 可以看到一个整洁，灵活的按钮/工具栏。 如图所示:
 
-![exp-3_button.png](imgdata/exp-3_button.png)
+![exp-3_button.png](https://raw.githubusercontent.com/ZhuFan1991/personal-resume/master/imgdata/exp-3_button.png)
 
 将下面的CSS添加到例子的底部, 可以看到这些按钮很好的垂直水平居中了:
 ```
@@ -157,7 +157,7 @@ div {
 ```
 效果如下图所示:
 
-![exp-3_button_align.png](imgdata/exp-3_button_algin.png)
+![exp-3_button_align.png](https://raw.githubusercontent.com/ZhuFan1991/personal-resume/master/imgdata/exp-3_button_algin.png)
 ***
 
 `align-items` 控制 flex 项在交叉轴上的位置。
@@ -174,7 +174,7 @@ button: first-child {
 ```
 效果如下图所示:
 
-![exp-3_button_flex_end.png](imgdata/exp-3_button_flex_end.png)
+![exp-3_button_flex_end.png](https://raw.githubusercontent.com/ZhuFan1991/personal-resume/master/imgdata/exp-3_button_flex_end.png)
 
 ***
 
@@ -204,7 +204,7 @@ button: first-child {
 ```
 效果下图所示:
 
-![exp-3_button_order.png](imgdata/exp-3_button_order.png)
+![exp-3_button_order.png](https://raw.githubusercontent.com/ZhuFan1991/personal-resume/master/imgdata/exp-3_button_order.png)
 
 可以看到 "Smile" 按钮移动到了主轴的末尾。下面谈下它实现的一些细节：
 
@@ -228,7 +228,7 @@ button:last-child {
 
 **说明:**
 
-弹性盒子也能创建一些颇为复杂的布局。设置一个元素为flex项目，那么他同样成为一个 flex 容器，它的直接子节点也表现为 flexible box（[exp-1](master/experiences/exp-3.html)）。 这个例子中一个 `<section>` 元素包含了三个 `<article>` 元素。第三个 `<article>` 元素包含了三个 `<div>` ：
+弹性盒子也能创建一些颇为复杂的布局。设置一个元素为flex项目，那么他同样成为一个 flex 容器，它的直接子节点也表现为 `flexible box` :  [exp-1](https://github.com/ZhuFan1991/personal-resume/blob/master/experiences/Exp-1/exp-4.html)([预览效果](exp-4.html))。 这个例子中一个 `<section>` 元素包含了三个 `<article>` 元素。第三个 `<article>` 元素包含了三个 `<div>` ：
 ```
 section - article
           article
@@ -277,7 +277,7 @@ button {
 ```
 最终效果图:
 
-![exp-3_flex.png](imgdata/exp-3_flex.png)
+![exp-3_flex.png](https://raw.githubusercontent.com/ZhuFan1991/personal-resume/master/imgdata/exp-3_flex.png)
 
 ---
 
