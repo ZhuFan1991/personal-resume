@@ -4,7 +4,9 @@
 
 你可以看到这个页面有一个含有顶级标题的 `<header>` 元素，和一个包含三个 `<article>` 的 `<section>` 元素。使用这些来创建一个非常的标准三列布局，如下图所示：
 
-![img-1](https://raw.githubusercontent.com/ZhuFan1991/personal-resume/master/imgdata/display.png)
+<p align="left">
+    <img src="../../imgdata/display.png" alt="display.png" width="500" >
+</p>
 
 ---
 
@@ -19,7 +21,9 @@ section {
 ```
 效果如图所示：
 
-![display_flex.png](https://raw.githubusercontent.com/ZhuFan1991/personal-resume/master/imgdata/display_flex.png)
+<p align="left">
+    <img src="../../imgdata/display_flex.png" alt="display_flex.png" width="500" >
+</p>
 
 ---
 flex 模型说明:
