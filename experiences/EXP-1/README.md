@@ -245,7 +245,7 @@ img {
 效果如下:
 
 <p align="left">
-    <img src="../../imgdata/Exp-1_float_img.png" alt="Exp-1_float_img.png" width="800" >
+    <img src="../../imgdata/Exp-1_float_img.png" alt="Exp-1_float_img.png" width="400" >
 </p>
 
 再来看一个例子, 代码:
@@ -259,7 +259,7 @@ img {
 ```
 效果如下图:
 <p align="left">
-    <img src="../../imgdata/Exp-1_float_left.png" alt="Exp-1_float_left.png" width="600" >
+    <img src="../../imgdata/Exp-1_float_left.png" alt="Exp-1_float_left.png" width="800" >
 </p>
 
 不同于 `position` 属性, `float` 属性设置后, 空隙会被下面的元素 `session` 填充, 同时下面的 `session` 元素会围绕着包围整个 `div` 元素
@@ -287,7 +287,7 @@ clear 属性规定元素的哪一侧不允许其他浮动元素。
 效果如下图:
 
 <p align="left">
-    <img src="../../imgdata/Exp-1_clear.png" alt="Exp-1_clear.png" width="600" >
+    <img src="../../imgdata/Exp-1_clear.png" alt="Exp-1_clear.png" width="800" >
 </p>
 
 ---
@@ -322,7 +322,7 @@ clear 属性规定元素的哪一侧不允许其他浮动元素。
 使用 `float` 属性实现和 `position` 属性一样效果, 如下图:
 
 <p align="left">
-    <img src="../../imgdata/Exp-1_float_exp.png" alt="Exp-1_float_exp.png" width="600" >
+    <img src="../../imgdata/Exp-1_float_exp.png" alt="Exp-1_float_exp.png" width="800" >
 </p>
 
 代码如下:
@@ -345,7 +345,7 @@ section {
 百分比是一种相对于包含块的计量单位。它对图片很有用：如下实现了图片宽度始终是容器宽度的50%。把页面缩小看下效果！
 
 <p align="left">
-    <img src="../../imgdata/Exp-1_float_exp.png" alt="Exp-1_float_exp.png" width="400" >
+    <img src="../../imgdata/Exp-1_float_exp.png" alt="Exp-1_float_exp.png" width="800" >
 </p>
 
 你可以用百分比做布局，但是这需要更多的工作。在下面的例子中，当窗口宽度很窄时 `nav` 的内容会以一种不太友好的方式被包裹起来。总而言之，选一种最合适你的内容的方式。
@@ -363,7 +363,7 @@ section {
 效果如下图所示:
 
 <p align="left">
-    <img src="../../imgdata/Exp-1_percent_exp.png" alt="Exp-1_percent_exp.png" width="600" >
+    <img src="../../imgdata/Exp-1_percent_exp.png" alt="Exp-1_percent_exp.png" width="800" >
 </p>
 
 ### 9、使用响应式布局
@@ -429,7 +429,7 @@ section {
 最终效果如下图:
 
 <p align="left">
-    <img src="../../imgdata/Exp-1_inline_block.png" alt="Exp-1_inline_block.png" width="600" >
+    <img src="../../imgdata/Exp-1_inline_block.png" alt="Exp-1_inline_block.png" width="800" >
 </p>
 
 使用 `inline-block` 来布局时有一些事情需要牢记：

@@ -1,0 +1,141 @@
+/*
+    使用 position 属性进行布局
+*/
+
+.container {
+    position: relative;
+    width: 960px;
+    margin: 50px auto;
+    border: 1px solid #e3ebe9;
+    border-radius: 5px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.basicInfo {
+    position: absolute;
+    padding: 50px;
+    left: 0px;
+    width: 240px;
+    height: 100%;
+    background: rgb(37, 70, 101);
+    /*
+    border: 1px solid #e3ebe9;
+    */
+    border-radius: 5px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.basicInfo .basic-photo {
+    position: relative;
+    margin: auto;
+    width: 120px;
+    height: 120px;
+}
+
+.basicInfo .basic-photo img {
+    width: 120px;
+    height: 120px;
+}
+
+.basicInfo .basic-info {
+    margin-left: 12px;
+    margin-top: 20px;
+    padding-left: 0px;
+}
+
+.basic-info li {
+    list-style-type: none;
+    font-family: "Hiragino Sans GB", "Microsoft Yahei", SimSun, Arial, "Helvetica Neue", Helvetica;
+    font-size: 14px;
+    color: white;
+    line-height: 2.5;
+}
+
+.mainInfo {
+    position: static;
+    margin-top: 20px;
+    margin-left: 240px;
+    padding: 50px;
+    height: 1200px;
+}
+
+.mainInfo .header {
+    position: relative;
+}
+
+.mainInfo .header .header-name h1 {
+    position: absolute;
+    margin: 0px;
+    left: 0px;
+    width: 100px;
+}
+
+.mainInfo .header .header-tags {
+    float: left;
+    line-height: 45px;
+    position: relative;
+    margin-left: 100px;
+    height: 45px;
+}
+
+.mainInfo .header .header-tags span {
+    font-family: Helvetica;
+    border: 2px solid red;
+    padding: .2em .8em;
+    margin-right: 8px;
+}
+
+.mainInfo .header-bio {
+    clear: left;
+    margin-top: 80px;
+    font-family: "Microsoft Yahei", SimSun, Arial, "Helvetica Neue", Helvetica;
+    font-size: 18px;
+    color: rgb(150, 150, 150);
+}
+
+[class~=title] {
+    font-family: "Hiragino Sans GB", "Microsoft Yahei", SimSun, Arial, "Helvetica Neue", Helvetica;
+    font-size: 20px;
+    color: #333;
+    font-weight: 600;
+    margin-top: 40px;
+
+}
+
+.mainInfo .education {
+    margin-top: 50px;
+}
+
+.mainInfo .info {
+    float: left;
+    margin-top: 10px;
+    margin-right: 8px;
+}
+
+.mainInfo .info span {
+    font-family: Helvetica;
+    font-weight: bold;
+    margin-right: 14px;
+}
+
+.content {
+    clear: left;
+    padding-top: 0.3em;
+}
+
+.content p {
+    font-family:Helvetica;
+    font-size: 14px;
+    line-height: 25px;
+    color: rgb(150, 150, 150);
+}
+
+ol {
+    list-style-type: none;
+    padding-left: 0px;
+    margin-top: 0px;
+}
