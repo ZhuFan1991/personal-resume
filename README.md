@@ -9,4 +9,8 @@
 弹性盒子是一种新技术，但在如今各个浏览器都广泛支持的情况下，它已经开始准备广泛应用了。 弹性盒子提供了工具，允许快速创建曾经被证明用CSS很难实现的一些复杂，灵活的布局和功能。本次练习旨在通过一些例子练习，掌握其基本原理。
 
 
-[3、CSS网格练习笔记](experiences/EXP-3/) 
+[3、CSS网格练习笔记](experiences/EXP-3/) （原地址: <a href="https://developer.mozilla.org/zh-CN/docs/Learn/CSS/CSS_layout/Grids">学习网格布局</a>） 
+
+网格是一个成熟的设计工具，许多现代网站布局是基于规则网格。在本文中，我们将看看基于网格的设计，以及如何使用CSS来创建网格——两者都通过现在的工具，和刚刚开始在浏览器中可用的新技术。
+
+参考资料：[CSS Grid](https://www.w3cplus.com/css/learncssgrid.html)
