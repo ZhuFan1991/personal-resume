@@ -5,5 +5,93 @@
 }
 
 .container {
+    width: 960px;
+    height: 1200px;
+    margin: 50px auto;
+    overflow: auto;
+    border: 1px solid #e3ebe9;
+    border-radius: 5px;
+}
+
+.container .basicInfo {
     float: left;
+    width: 240px;
+    height: 100%;
+    background: rgb(37, 70, 101);
+}
+
+.container .basicInfo .basic-photo {
+    text-align: center;
+}
+
+.container .basicInfo img {
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    margin-top: 50px;
+}
+
+.container .basicInfo .basic-info {
+    margin-top: 20px;
+    margin-left: 12px;
+    padding-left: 50px;
+}
+
+.basic-info li {
+    list-style-type: none;
+    font-family: "Hiragino Sans GB", "Microsoft Yahei", SimSun, Arial, "Helvetica Neue", Helvetica;
+    font-size: 14px;
+    color: white;
+    line-height: 2.5;
+}
+
+.container .mainInfo {
+    height: 100%;
+    margin-top: 20px;
+    margin-left: 240px;
+    padding: 50px;
+}
+
+.mainInfo .header .header-name {
+    position: relative;
+    margin: 0px;
+    left: 0px;
+
+}
+
+.mainInfo .header .header-name h1 {
+    position: absolute;
+    margin: 0px;
+    left: 0px;
+
+}
+
+.mainInfo .header .header-tags {
+    display: inline-block;
+    width: 100%;
+    line-height: 45px;
+    position: relative;
+    margin-left: 100px;
+    height: 45px;
+    overflow: auto;
+}
+
+.mainInfo .header .header-tags span {
+    font-family: Helvetica;
+    border: 2px solid red;
+    padding: .2em .8em;
+    margin-right: 8px;
+}
+
+.mainInfo .header-bio {
+    clear: initial;
+}
+
+
+[class~=title] {
+    font-family: "Hiragino Sans GB", "Microsoft Yahei", SimSun, Arial, "Helvetica Neue", Helvetica;
+    font-size: 20px;
+    color: #333;
+    font-weight: 600;
+    margin-top: 40px;
 }
