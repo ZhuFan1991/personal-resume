@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* 内外边距通常让各个浏览器样式的表现位置不同 */
+body,div,dl,dt,dd,ul,li,pre,form,fieldset,select,input,textarea,button,p,blockquote,th,td,img,iframe{
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+body, dl, dd, h1, h2, h3, h4, h5, h6, p, form {
+    margin:0;
+}
+ol,ul {
+    margin:0;
+    padding:0;
+}
+body{
+    width: 100%;
+}
+
+/* 重置button边框 */
+button{
+    border: none;
+}
+/* 去除默认边框 */
+img {
+    border: none;
+    outline: none;
+    -moz-outline:none;
+    display: block;
+}
+/* 去掉列表前的标识, li 会继承 */
+ol,ul,li{
+    list-style: none;
+}
+
+/* 让链接默认不显示下划线，在hover状态下显示下划线 */
+a {
+    outline: none;
+    text-decoration: none;
+    display: block;
+    blr:expression(this.onFocus=this.blur());
+}
+a:hover{
+    text-decoration: underline;
+}
+/*解决盒模型问题css3属性也可用来统一FORM元素风格*/
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
