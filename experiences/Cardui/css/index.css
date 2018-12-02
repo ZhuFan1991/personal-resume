@@ -1,0 +1,89 @@
+@charset "utf-8";
+/*公共容器设置*/
+.container {
+    display: grid;
+
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1240px;
+
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-gap: 20px;
+}
+
+/*媒体查询设置*/
+@media only screen and (min-width: 500px) {
+    .container {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .item-1 {
+        grid-column: 1/ span 2;
+    }
+}
+
+@media only screen and (min-width: 850px) {
+    .container {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+
+/*卡片设置*/
+.container .card-item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+    top: 0;
+    transition: all  ease-in;
+
+    background: #fff;
+    text-decoration: none;
+    color: #444;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    min-height: 100%;
+}
+
+.card-item:hover {
+    top: -2px;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+}
+
+/*文本排版*/
+.card-item article {
+    padding: 20px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-item h1 {
+    font-size: 20px;
+    margin: 0;
+    color: #333;
+}
+
+.card-item p {
+    flex: 1;
+    line-height: 1.4;
+}
+
+.card-item span {
+    font-size: 12px;
+    font-weight: bold;
+    color: #999;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    margin: 2em 0 0 0;
+}
+
+/*背景图片处理*/
+.card-item .thumb {
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 60%;
+    background: url("../images/card-banner.jpg");
+}
