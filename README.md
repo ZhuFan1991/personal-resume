@@ -2,21 +2,25 @@
 
 ## 1、学习笔记：
 
-[CSS布局基础练习笔记](notes/Exp-1/) （原地址: <a href="http://zh.learnlayout.com/no-layout.html">学习CSS布局</a>）
+- [CSS布局基础练习笔记](notes/Exp-1/) （原地址: <a href="http://zh.learnlayout.com/no-layout.html">学习CSS布局</a>）
 
 如果只想把所有内容都塞进一栏里，那么不用设置任何布局也是OK的。然而，如果用户把浏览器窗口调整的很大，这时阅读网页会非常难受：读完每一行之后，视觉焦点要从右到左移动一大段距离。我们需要通过一个很重要的属性： `display` 来解决问题。
 
-[CSS弹性盒子练习笔记](notes/Exp-2/) （原地址: <a href="https://developer.mozilla.org/zh-CN/docs/Learn/CSS/CSS_layout">学习弹性盒子</a>）
+- [CSS弹性盒子练习笔记](notes/Exp-2/) （原地址: <a href="https://developer.mozilla.org/zh-CN/docs/Learn/CSS/CSS_layout">学习弹性盒子</a>）
 
 弹性盒子是一种新技术，但在如今各个浏览器都广泛支持的情况下，它已经开始准备广泛应用了。 弹性盒子提供了工具，允许快速创建曾经被证明用CSS很难实现的一些复杂，灵活的布局和功能。本次练习旨在通过一些例子练习，掌握其基本原理。
 
 
-[CSS网格练习笔记](notes/Exp-3/) （原地址: <a href="https://developer.mozilla.org/zh-CN/docs/Learn/CSS/CSS_layout/Grids">学习网格布局</a>） 
+- [CSS网格练习笔记](notes/Exp-3/) （原地址: <a href="https://developer.mozilla.org/zh-CN/docs/Learn/CSS/CSS_layout/Grids">学习网格布局</a>） 
 
 网格是一个成熟的设计工具，许多现代网站布局是基于规则网格。在本文中，我们将看看基于网格的设计，以及如何使用CSS来创建网格——两者都通过现在的工具，和刚刚开始在浏览器中可用的新技术。
 
 参考资料：[CSS Grid](https://www.w3cplus.com/css/learncssgrid.html)
 
+
+- [CSS媒体查询练习笔记](notes/Exp-4/) （原地址: <a href="https://developer.mozilla.org/zh-CN/docs/Web/Guide/CSS/Media_queries">学习媒体查询</a>） 
+
+媒体查询，添加自CSS3，允许内容的呈现针对一个特定范围的输出设备而进行裁剪，而不必改变内容本身。
 
 
 ## 2、扩展阅读：
