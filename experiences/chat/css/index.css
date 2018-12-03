@@ -1,0 +1,165 @@
+@charset "utf-8";
+/**
+*公共区域
+*/
+.f12 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+}
+
+.f14 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+.f16 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+.fw200 {
+    font-weight: 200;
+}
+
+.fw300 {
+    font-weight: 300;
+}
+
+.column-item {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    padding: 30px;
+}
+
+.column-item .column-title {
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    color: #5b6779;
+}
+
+.column-item .column-list {
+    margin-top: 15px;
+    line-height: 36px;
+    color: #b7c0cd;
+}
+
+.column-item .column-list li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-icon {
+    width: 20px;
+    height: 20px;
+    border-radius: 30px;
+    background: #efefef;
+}
+
+.notification {
+    width: 32px;
+    height: 24px;
+    background: url("../imges/notice.png") no-repeat;
+    background-position: right;
+}
+
+
+
+/**
+*独立区域
+*/
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+
+    width: 100%;
+    height: 100%;
+
+}
+
+/*功能列表*/
+.container .feature-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+    height: 100%;
+
+    background: #1d2531;
+}
+
+.feature-list .feature-item {
+    width: 60px;
+    height: 60px;
+    margin-top: 20px;
+}
+
+.feature-list .feature-menu {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+
+    left: 20px;
+    bottom: 20px;
+    width: 60px;
+    height: 20px;
+}
+
+.feature-menu .feature-menu-item {
+    width: 20px;
+    height: 20px;
+
+    background: #efefef;
+}
+
+.feature-list .icon-1 {
+    background-attachment: fixed;
+    background: url("../imges/feature-icon-1.png") no-repeat;
+}
+
+.feature-list .icon-2 {
+    background: url("../imges/feature-icon-2.png");
+}
+
+.feature-list .icon-3 {
+    background: url("../imges/feature-icon-3.png");
+}
+
+.feature-list .icon-4 {
+    background: url("../imges/feature-icon-4.png");
+}
+
+
+/*菜单栏*/
+.container .menu-column {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 100%;
+    background: #222c3c;
+}
+
+.menu-item:after {
+    content: "";
+    margin-top: 30px;
+    width: 190px;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.products-item:after {
+    content: "";
+    margin-top: 30px;
+    width: 190px;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+/*对话容器*/
+.container .message-container {
+    flex: 1 1 auto;
+    height: 100%;
+    background: #fff;
+}
