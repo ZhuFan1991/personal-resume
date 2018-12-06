@@ -1,4 +1,4 @@
-# CSS布局学习
+# 前端开发学习
 
 ## 1、学习笔记：
 
@@ -23,9 +23,23 @@
 媒体查询，添加自CSS3，允许内容的呈现针对一个特定范围的输出设备而进行裁剪，而不必改变内容本身。
 
 
+
 ## 2、扩展阅读：
 
-- ### 布局
+- ### Html
+
+[GitHub - HTML编码规范](https://github.com/ecomfe/spec/blob/master/html-style-guide.md)
+
+
+
+- ### CSS
+
+##### CSS基础：
+
+[GitHub - CSS编码规范](https://github.com/ecomfe/spec/blob/master/css-style-guide.md)
+
+
+##### CSS布局：
 
 [知乎 - CSS 居中布局技巧详解](https://zhuanlan.zhihu.com/p/25068655)
 
@@ -41,15 +55,42 @@
 
 [七种实现左侧固定，右侧自适应两栏布局的方法](https://segmentfault.com/a/1190000010698609)
 
-[圣杯布局](http://alistapart.com/article/holygrail)
-
-[双飞翼布局](http://www.imooc.com/wenda/detail/254035)
-
 [简书 - 圣杯布局和双飞翼布局](https://www.jianshu.com/p/f9bcddb0e8b4)
 
 [CSS深入理解流体特性和BFC特性下多栏自适应布局](http://www.zhangxinxu.com/wordpress/2015/02/css-deep-understand-flow-bfc-column-two-auto-layout/)
 
 [三种三栏网页宽度自适应布局方法](http://www.zhangxinxu.com/wordpress/2009/11/%E6%88%91%E7%86%9F%E7%9F%A5%E7%9A%84%E4%B8%89%E7%A7%8D%E4%B8%89%E6%A0%8F%E7%BD%91%E9%A1%B5%E5%AE%BD%E5%BA%A6%E8%87%AA%E9%80%82%E5%BA%94%E5%B8%83%E5%B1%80%E6%96%B9%E6%B3%95/)
+
+
+
+
+
+
+
+- ### JavaScript
+
+##### JavaScript基础：
+
+[GitHub - JavaScript编码规范](https://github.com/ecomfe/spec/blob/master/javascript-style-guide.md)
+
+[一文读懂JavaScript和ECMAScript的区别](http://developer.51cto.com/art/201711/557514.htm)
+
+[javascript 动态修改css样式方法汇总(四种方法)](https://www.cnblogs.com/aademeng/articles/6279060.html)
+
+
+
+##### JavaScript中的事件机制:
+
+[初步理解JS的事件机制](https://www.cnblogs.com/lazychen/p/5664788.html)
+
+[js中的事件委托或是事件代理详解](https://www.cnblogs.com/liugang-vip/p/5616484.html)
+
+[关于JS事件冒泡与JS事件代理（事件委托）](https://blog.csdn.net/supercoooooder/article/details/52190100)
+
+[JavaScript事件代理和委托](https://segmentfault.com/a/1190000002613617)
+
+
+
 
 
 

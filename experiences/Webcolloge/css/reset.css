@@ -46,16 +46,13 @@ a:hover{
     text-decoration: underline;
 }
 /* 清理浮动 */
-.clearfix:before,
 .clearfix:after {
-    display: block;
+    display: table;
     content: " ";
     clear: both;
-    visibility: hidden;
-    height: 0;
 }
 .clearfix{
-    zoom: 1; /* for ie67*/
+    *zoom: 1; /* for ie67*/
 }
 /*解决盒模型问题css3属性也可用来统一FORM元素风格*/
 * {
