@@ -98,11 +98,15 @@
 
 - ### PC布局练习
 
-[a) 个人简历](experiences/Resume) 
+[a) 个人简历](exercises/Resume) 
 
-[b) 前端技术学院](experiences/Webcolloge) （原地址: <a href="http://ife.baidu.com/course/detail/id/43">百度前端技术学院</a>）
+[b) 前端技术学院](exercises/Webcolloge) （原地址: <a href="http://ife.baidu.com/course/detail/id/43">百度前端技术学院</a>）
 
-[c) Card布局-1](experiences/Cardui) （原地址: <a href="http://https://www.w3cplus.com/css3/solving-problems-with-css-grid-and-flexbox-the-card-ui.html">使用CSS Grid和Flexbox制作Card</a>）
+[c) Card布局-1](exercises/Cardui) （原地址: <a href="http://https://www.w3cplus.com/css3/solving-problems-with-css-grid-and-flexbox-the-card-ui.html">使用CSS Grid和Flexbox制作Card</a>）
 
-[d) Card布局-2](experiences/Cardui) （原地址: <a href="https://www.w3cplus.com/css3/css-grid-flexbox-solving-real-world-problems.html">CSS Grid和Flexbox解决实际的布局问题Card</a>）
+[d) Card布局-2](exercises/Cardui) （原地址: <a href="https://www.w3cplus.com/css3/css-grid-flexbox-solving-real-world-problems.html">CSS Grid和Flexbox解决实际的布局问题Card</a>）
+
+[e) 慕课手机官网](exercises/Cardui) (未完)
+
+
 
