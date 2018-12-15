@@ -1,28 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cc39a4a3-6f3f-4106-967c-6337cefdde9f" name="Default" comment="update">
-      <change afterPath="$PROJECT_DIR$/experiences/mukePhone/css/common.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experiences/mukePhone/css/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experiences/mukePhone/css/reset.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experiences/mukePhone/css/zxx.lib.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experiences/mukePhone/images/bg-screen-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experiences/mukePhone/images/bg-screen-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experiences/mukePhone/images/bg-screen-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experiences/mukePhone/images/bg-screen-5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experiences/mukePhone/images/bg-screen-buy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experiences/mukePhone/images/icon-point-left.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experiences/mukePhone/images/icon-point-right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experiences/mukePhone/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experiences/mukePhone/images/phone-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experiences/mukePhone/images/phone-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experiences/mukePhone/images/phone-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experiences/mukePhone/images/phone-4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experiences/mukePhone/images/screen-1-phone.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experiences/mukePhone/images/screen-1-shadow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experiences/mukePhone/index.html" afterDir="false" />
+    <list default="true" id="cc39a4a3-6f3f-4106-967c-6337cefdde9f" name="Default" comment="add new exercise mukePhone">
+      <change afterPath="$PROJECT_DIR$/exercises/mukePhone/css/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercises/mukePhone/js/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/mukePhone/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/mukePhone/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/mukePhone/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/mukePhone/index.html" afterDir="false" />
     </list>
     <ignored path="personal-resume.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -43,23 +27,29 @@
     <favorites_list name="personal-resume" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.5483092">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/experiences/mukePhone/index.html">
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/exercises/mukePhone/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="306">
-                  <caret line="95" column="40" lean-forward="true" selection-start-line="95" selection-start-column="40" selection-end-line="95" selection-end-column="40" />
+                <state relative-caret-position="494">
+                  <caret line="56" column="36" lean-forward="true" selection-start-line="56" selection-start-column="36" selection-end-line="56" selection-end-column="36" />
                   <folding>
                     <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#0;n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#section#3;n#div#0;n#body#0;n#html#0;n#!!top" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/exercises/mukePhone/js/index.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="844">
+                  <caret line="88" lean-forward="true" selection-start-line="88" selection-end-line="88" />
                 </state>
               </provider>
             </entry>
@@ -67,12 +57,21 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
-          <file leaf-file-name="index.css" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/experiences/mukePhone/css/index.css">
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/exercises/mukePhone/css/index.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="725">
-                  <caret line="370" column="16" selection-start-line="370" selection-start-column="16" selection-end-line="370" selection-end-column="16" />
+                <state relative-caret-position="371">
+                  <caret line="261" column="79" selection-start-line="261" selection-start-column="79" selection-end-line="261" selection-end-column="79" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="animate.css" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/exercises/mukePhone/css/animate.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="806">
+                  <caret line="137" column="1" selection-start-line="137" selection-start-column="1" selection-end-line="137" selection-end-column="1" />
                 </state>
               </provider>
             </entry>
@@ -87,6 +86,7 @@
         <option value="package_json" />
         <option value="HTML File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -155,6 +155,10 @@
         <option value="$PROJECT_DIR$/experiences/mukePhone/index.html" />
         <option value="$PROJECT_DIR$/experiences/mukePhone/css/index.css" />
         <option value="$PROJECT_DIR$/experiences/mukePhone/css/reset.css" />
+        <option value="$PROJECT_DIR$/exercises/mukePhone/index.html" />
+        <option value="$PROJECT_DIR$/exercises/mukePhone/js/index.js" />
+        <option value="$PROJECT_DIR$/exercises/mukePhone/css/index.css" />
+        <option value="$PROJECT_DIR$/exercises/mukePhone/css/animate.css" />
       </list>
     </option>
   </component>
@@ -168,10 +172,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="1440" />
-    <option name="y" value="-42" />
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="添加" />
@@ -181,6 +183,40 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="personal-resume" type="cbb8eebc:String" user="personal-resume" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="personal-resume" type="cbb8eebc:String" user="personal-resume" />
+              <item name=".idea" type="cbb8eebc:String" user=".idea" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="personal-resume" type="cbb8eebc:String" user="personal-resume" />
+              <item name="exercises" type="cbb8eebc:String" user="exercises" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="personal-resume" type="cbb8eebc:String" user="personal-resume" />
+              <item name="exercises" type="cbb8eebc:String" user="exercises" />
+              <item name="mukePhone" type="cbb8eebc:String" user="mukePhone" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="personal-resume" type="cbb8eebc:String" user="personal-resume" />
+              <item name="exercises" type="cbb8eebc:String" user="exercises" />
+              <item name="mukePhone" type="cbb8eebc:String" user="mukePhone" />
+              <item name="images" type="cbb8eebc:String" user="images" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -191,38 +227,45 @@
             <path>
               <item name="personal-resume" type="b2602c69:ProjectViewProjectNode" />
               <item name="personal-resume" type="462c0819:PsiDirectoryNode" />
-              <item name="experiences" type="462c0819:PsiDirectoryNode" />
+              <item name="exercises" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="personal-resume" type="b2602c69:ProjectViewProjectNode" />
               <item name="personal-resume" type="462c0819:PsiDirectoryNode" />
-              <item name="experiences" type="462c0819:PsiDirectoryNode" />
+              <item name="exercises" type="462c0819:PsiDirectoryNode" />
               <item name="mukePhone" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="personal-resume" type="b2602c69:ProjectViewProjectNode" />
               <item name="personal-resume" type="462c0819:PsiDirectoryNode" />
-              <item name="experiences" type="462c0819:PsiDirectoryNode" />
+              <item name="exercises" type="462c0819:PsiDirectoryNode" />
               <item name="mukePhone" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="personal-resume" type="b2602c69:ProjectViewProjectNode" />
               <item name="personal-resume" type="462c0819:PsiDirectoryNode" />
-              <item name="experiences" type="462c0819:PsiDirectoryNode" />
+              <item name="exercises" type="462c0819:PsiDirectoryNode" />
               <item name="mukePhone" type="462c0819:PsiDirectoryNode" />
               <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="personal-resume" type="b2602c69:ProjectViewProjectNode" />
               <item name="personal-resume" type="462c0819:PsiDirectoryNode" />
-              <item name="experiences" type="462c0819:PsiDirectoryNode" />
+              <item name="exercises" type="462c0819:PsiDirectoryNode" />
+              <item name="mukePhone" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="personal-resume" type="b2602c69:ProjectViewProjectNode" />
+              <item name="personal-resume" type="462c0819:PsiDirectoryNode" />
+              <item name="exercises" type="462c0819:PsiDirectoryNode" />
               <item name="Webcolloge" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="personal-resume" type="b2602c69:ProjectViewProjectNode" />
               <item name="personal-resume" type="462c0819:PsiDirectoryNode" />
-              <item name="experiences" type="462c0819:PsiDirectoryNode" />
+              <item name="exercises" type="462c0819:PsiDirectoryNode" />
               <item name="Webcolloge" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -230,7 +273,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -242,7 +284,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.常规" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -313,7 +355,10 @@
       <workItem from="1544777968214" duration="5360000" />
       <workItem from="1544797114798" duration="73000" />
       <workItem from="1544798515658" duration="3877000" />
-      <workItem from="1544803038796" duration="4037000" />
+      <workItem from="1544803038796" duration="4580000" />
+      <workItem from="1544848278862" duration="2134000" />
+      <workItem from="1544850861848" duration="2872000" />
+      <workItem from="1544864443301" duration="16459000" />
     </task>
     <task id="LOCAL-00001" summary="更新README文件, 新增测试代码, 新增几张截图">
       <created>1543069116116</created>
@@ -448,21 +493,28 @@
       <option name="project" value="LOCAL" />
       <updated>1544108474751</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="add new exercise mukePhone">
+      <created>1544807298640</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1544807298640</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="202099000" />
+    <option name="totallyTimeSpent" value="224107000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1440" y="-42" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.08530806" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12796208" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="调试" order="7" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5076356" side_tool="true" weight="0.26909092" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5076356" side_tool="true" weight="0.26865673" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49394417" weight="0.32935324" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -524,37 +576,15 @@
     <MESSAGE value="add new exercise &quot;Cardui2&quot;" />
     <MESSAGE value="add new exercise &quot;chat&quot;" />
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="add new exercise mukePhone" />
+    <option name="LAST_COMMIT_MESSAGE" value="add new exercise mukePhone" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/notes/Exp-3/exp-1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/experiences/Resume/style_2.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="70" column="16" selection-start-line="70" selection-start-column="16" selection-end-line="70" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/experiences/Resume/resume.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="8" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/618nianzhongdacu-20180614/css/h5-index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Desktop/leren-wx-20180604/css/common.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-289" />
@@ -569,7 +599,7 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Webcolloge/css/normalize.css" />
-    <entry file="file://$PROJECT_DIR$/experiences/Resume/style_1.css">
+    <entry file="file://$PROJECT_DIR$/exercises/Resume/style_1.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="469">
           <caret line="100" column="98" lean-forward="true" selection-start-line="100" selection-start-column="64" selection-end-line="100" selection-end-column="98" />
@@ -590,7 +620,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/experiences/Webcolloge/imgaes/feature-icon-4.png">
+    <entry file="file://$PROJECT_DIR$/exercises/Webcolloge/imgaes/feature-icon-4.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/sectional.rnc">
@@ -600,19 +630,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/experiences/Webcolloge/imgaes/index-sup-policy-bg.png">
+    <entry file="file://$PROJECT_DIR$/exercises/Webcolloge/imgaes/index-sup-policy-bg.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/experiences/Webcolloge/imgaes/index-support-ipad.png">
+    <entry file="file://$PROJECT_DIR$/exercises/Webcolloge/imgaes/index-support-ipad.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/experiences/Webcolloge/imgaes/logo-item-1.png">
+    <entry file="file://$PROJECT_DIR$/exercises/Webcolloge/imgaes/logo-item-1.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/experiences/Webcolloge/imgaes/logo-item-3.png">
+    <entry file="file://$PROJECT_DIR$/exercises/Webcolloge/imgaes/logo-item-3.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/experiences/Webcolloge/imgaes/logo-item-2.png">
+    <entry file="file://$PROJECT_DIR$/exercises/Webcolloge/imgaes/logo-item-2.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/notes/Exp-2/README.md">
@@ -625,24 +655,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/experiences/Cardui/css/reset.css">
+    <entry file="file://$PROJECT_DIR$/exercises/Cardui/css/reset.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="765">
           <caret line="51" column="1" selection-start-line="51" selection-start-column="1" selection-end-line="51" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/experiences/Cardui/images/card-banner.jpg">
+    <entry file="file://$PROJECT_DIR$/exercises/Cardui/images/card-banner.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/experiences/Cardui/css/index.css">
+    <entry file="file://$PROJECT_DIR$/exercises/Cardui/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="39" column="20" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/experiences/Cardui/index.html">
+    <entry file="file://$PROJECT_DIR$/exercises/Cardui/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="979">
           <caret line="27" column="105" selection-start-line="27" selection-start-column="105" selection-end-line="27" selection-end-column="105" />
@@ -656,11 +686,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/notes/Exp-3/README.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="205">
@@ -669,15 +694,20 @@
           <second_editor />
         </state>
       </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/experiences/Cardui2/css/index.css">
+    <entry file="file://$PROJECT_DIR$/exercises/Cardui2/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2250">
           <caret line="150" column="5" selection-start-line="150" selection-start-column="5" selection-end-line="150" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/experiences/Cardui2/index.html">
+    <entry file="file://$PROJECT_DIR$/exercises/Cardui2/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="26" column="38" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
@@ -694,55 +724,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/experiences/Cardui2/css/reset.css">
+    <entry file="file://$PROJECT_DIR$/exercises/Cardui2/css/reset.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/experiences/chat/css/reset.css">
+    <entry file="file://$PROJECT_DIR$/exercises/chat/css/reset.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="16" lean-forward="true" selection-start-line="18" selection-end-line="18" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/experiences/Webcolloge/css/common.css">
+    <entry file="file://$PROJECT_DIR$/exercises/Webcolloge/css/common.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="790">
           <caret line="66" column="4" selection-start-line="66" selection-start-column="4" selection-end-line="66" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/experiences/chat/imges/notice.png">
+    <entry file="file://$PROJECT_DIR$/exercises/chat/imges/notice.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/experiences/chat/imges/feature-icon-4.png">
+    <entry file="file://$PROJECT_DIR$/exercises/chat/imges/feature-icon-4.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/experiences/chat/css/index.css">
+    <entry file="file://$PROJECT_DIR$/exercises/chat/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="354">
           <caret line="152" column="22" lean-forward="true" selection-start-line="152" selection-start-column="22" selection-end-line="152" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/experiences/chat/index.html">
+    <entry file="file://$PROJECT_DIR$/exercises/chat/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="34" column="44" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/experiences/Webcolloge/index.html">
+    <entry file="file://$PROJECT_DIR$/exercises/Webcolloge/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="70" selection-start-line="70" selection-end-line="70" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/experiences/Webcolloge/css/reset.css">
+    <entry file="file://$PROJECT_DIR$/exercises/Webcolloge/css/reset.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="535">
           <caret line="53" column="10" selection-start-line="53" selection-start-column="10" selection-end-line="53" selection-end-column="10" />
@@ -783,71 +813,92 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="text-editor" />
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1904">
-            <caret line="112" selection-start-line="112" selection-end-line="112" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/experiences/Webcolloge/css/index.css">
+    <entry file="file://$PROJECT_DIR$/exercises/Webcolloge/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/experiences/mukePhone/images/icon-point-right.png">
+    <entry file="file://$PROJECT_DIR$/exercises/mukePhone/images/icon-point-right.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/experiences/mukePhone/images/icon-point-left.png">
+    <entry file="file://$PROJECT_DIR$/exercises/mukePhone/images/icon-point-left.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/experiences/mukePhone/css/common.css">
+    <entry file="file://$PROJECT_DIR$/exercises/mukePhone/css/common.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/experiences/mukePhone/css/zxx.lib.css">
+    <entry file="file://$PROJECT_DIR$/exercises/mukePhone/css/zxx.lib.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="803">
           <caret line="107" column="6" selection-start-line="107" selection-start-column="6" selection-end-line="107" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/experiences/mukePhone/css/reset.css">
+    <entry file="file://$PROJECT_DIR$/exercises/mukePhone/css/reset.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="29" column="18" lean-forward="true" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/experiences/mukePhone/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="725">
-          <caret line="370" column="16" selection-start-line="370" selection-start-column="16" selection-end-line="370" selection-end-column="16" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="906">
+            <caret line="112" selection-start-line="112" selection-end-line="112" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
+      <provider editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/experiences/mukePhone/index.html">
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercises/mukePhone/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="95" column="40" lean-forward="true" selection-start-line="95" selection-start-column="40" selection-end-line="95" selection-end-column="40" />
+        <state relative-caret-position="494">
+          <caret line="56" column="36" lean-forward="true" selection-start-line="56" selection-start-column="36" selection-end-line="56" selection-end-column="36" />
           <folding>
             <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#3;n#div#0;n#body#0;n#html#0;n#!!top" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercises/mukePhone/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="844">
+          <caret line="88" lean-forward="true" selection-start-line="88" selection-end-line="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercises/mukePhone/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="261" column="79" selection-start-line="261" selection-start-column="79" selection-end-line="261" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/build/css/h5-common.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="730">
+          <caret line="125" column="13" selection-start-line="125" selection-start-column="13" selection-end-line="125" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercises/mukePhone/css/animate.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="806">
+          <caret line="137" column="1" selection-start-line="137" selection-start-column="1" selection-end-line="137" selection-end-column="1" />
         </state>
       </provider>
     </entry>

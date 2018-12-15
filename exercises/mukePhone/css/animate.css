@@ -1,0 +1,139 @@
+/*screen-1动画效果*/
+.screen-1-title,
+.screen-1-phone,
+.screen-1-shadow {
+    transition: all 1s;
+}
+
+.screen-1-title-animate-init,
+.screen-1-shadow-animate-init {
+    opacity: 0;
+    transform: translate(0, 100%) ;
+}
+
+.screen-1-phone-animate-init {
+    opacity: 0;
+    transform: translate(0, -100%) ;
+}
+
+.screen-1-title-animate-done,
+.screen-1-phone-animate-done,
+.screen-1-shadow-animate-done {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+/*screen-2动画效果*/
+.screen-2-title,
+.screen-2-phone,
+.screen-2-tip,
+.screen-2-point {
+    transition: all 1s;
+}
+
+.screen-2-tip-animate-init,
+.screen-2-phone-animate-init {
+    opacity: 0;
+    transform: translate(0, 100%) ;
+}
+
+.screen-2-title-animate-done,
+.screen-2-phone-animate-done,
+.screen-2-tip-animate-done,
+.screen-2-point-animate-done {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+.screen-2-title-animate-init {
+    opacity: 0;
+    transform: translate(0, -100%) ;
+}
+
+.screen-2-point {
+    transition: all 1s 1s;
+}
+
+.screen-2-point-1-animate-init {
+    opacity: 0;
+    transform: translate(-100%, 0) ;
+}
+
+.screen-2-point-2-animate-init,
+.screen-2-point-3-animate-init {
+    opacity: 0;
+    transform: translate(100%, 0) ;
+}
+
+/*screen-3动画效果*/
+.screen-3-title,
+.screen-3-phone,
+.screen-3-tip,
+.screen-3-features-list {
+    transition: all 1s;
+}
+
+.screen-3-title-animate-init {
+    opacity: 0;
+    transform: translate(0, -100%) ;
+}
+
+.screen-3-tip-animate-init,
+.screen-3-phone-animate-init {
+    opacity: 0;
+    transform: translate(0, 100%) ;
+}
+
+.screen-3-title-animate-done,
+.screen-3-phone-animate-done,
+.screen-3-tip-animate-done {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+.screen-3-features-list-animate-init {
+    opacity: 0;
+    transform: scale(.5);
+}
+
+.screen-3-features-list-animate-done {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.screen-3-features-item {
+    transition: all .5s;
+    cursor: pointer;
+}
+
+.screen-3-features-item:hover {
+    transform: scale(1.1);
+    border-color: #fff;
+}
+
+/*screen-4动画效果*/
+.screen-4-title,
+.screen-4-phone-wrapper,
+.screen-4-tip
+ {
+    transition: all 1s;
+}
+
+.screen-4-title-animate-init {
+    opacity: 0;
+    transform: translate(0, -100%) ;
+}
+
+.screen-4-tip-animate-init,
+.screen-4-phone-wrapper-animate-init {
+    opacity: 0;
+    transform: translate(0, 100%) ;
+}
+
+.screen-4-title-animate-done,
+.screen-4-phone-wrapper-animate-done,
+.screen-4-tip-animate-done {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+

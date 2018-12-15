@@ -106,7 +106,10 @@
 
 [d) Card布局-2](exercises/Cardui) （原地址: <a href="https://www.w3cplus.com/css3/css-grid-flexbox-solving-real-world-problems.html">CSS Grid和Flexbox解决实际的布局问题Card</a>）
 
-[e) 慕课手机官网](exercises/Cardui) (未完)
+
+- ### web实战练习
+
+[e) 慕课手机官网](exercises/Cardui) （Html5 + CSS3 + 原生JS）
 
 
 

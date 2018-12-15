@@ -76,7 +76,7 @@
 
     color: #fff;
     background: #efefef;
-    background: url("../images/bg-screen-1.png");
+    background: url("../images/bg-screen-1.png") no-repeat center right;
 }
 
 .screen-1 > .screen-1-wrapper {
@@ -104,8 +104,8 @@
     position: absolute;
     top: 315px;
     left: 50%;
+    margin-left: -687px;
     z-index: 1;
-    transform: translateX(-50%);
 
     width: 1375px;
     height: 305px;
@@ -117,7 +117,7 @@
     position: absolute;
     top: 359px;
     left: 50%;
-    transform: translateX(-50%);
+    margin-left: -617px;
 
     width: 1233px;
     height: 411px;
@@ -165,7 +165,7 @@
     position: absolute;
     top: 270px;
     left: 50%;
-    transform: translateX(-50%);
+    margin-left: -400px;
 
     width: 800px;
     height: 873px;
@@ -254,8 +254,9 @@
     left: 5px;
     bottom: 140px;
 
-    width: 328px;
-    height: 288px;
+    padding: 10px 0 0 10px;
+    width: 338px;
+    height: 298px;
 }
 
 .screen-3 > .public-container > .screen-3-features-list > .screen-3-features-item {
