@@ -1,9 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cc39a4a3-6f3f-4106-967c-6337cefdde9f" name="Default" comment="update mukePhone">
+    <list default="true" id="cc39a4a3-6f3f-4106-967c-6337cefdde9f" name="Default" comment="update">
+      <change afterPath="$PROJECT_DIR$/JavaScript/exercises/baidu-ife/2015_spring_task02/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgdata/Exp-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/images/Exp-1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgdata/Exp-1_boxsizing.png" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/images/Exp-1_boxsizing.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgdata/Exp-1_clear.png" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/images/Exp-1_clear.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgdata/Exp-1_clearfix.png" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/images/Exp-1_clearfix.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgdata/Exp-1_column.png" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/images/Exp-1_column.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgdata/Exp-1_display.png" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/images/Exp-1_display.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgdata/Exp-1_float_exp.png" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/images/Exp-1_float_exp.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgdata/Exp-1_float_img.png" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/images/Exp-1_float_img.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgdata/Exp-1_float_left.png" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/images/Exp-1_float_left.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgdata/Exp-1_inline_block.png" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/images/Exp-1_inline_block.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgdata/Exp-1_media.png" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/images/Exp-1_media.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgdata/Exp-1_no_clearfix.png" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/images/Exp-1_no_clearfix.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgdata/Exp-1_percent.png" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/images/Exp-1_percent.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgdata/Exp-1_percent_exp.png" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/images/Exp-1_percent_exp.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgdata/Exp-1_position_absolute.png" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/images/Exp-1_position_absolute.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgdata/Exp-1_position_exp.png" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/images/Exp-1_position_exp.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgdata/Exp-1_position_fixed.png" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/images/Exp-1_position_fixed.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgdata/Exp-3/Exp-1_grid_area.png" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/images/Exp-3/Exp-1_grid_area.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgdata/Exp-3/Exp-1_gridline.png" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/images/Exp-3/Exp-1_gridline.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgdata/Exp-3/Exp-3_grid.png" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/images/Exp-3/Exp-3_grid.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgdata/Exp-3/Exp-3_grid_exp.png" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/images/Exp-3/Exp-3_grid_exp.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgdata/Exp-3/Exp-3_grid_line.png" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/images/Exp-3/Exp-3_grid_line.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgdata/Exp-3/Exp-3_gridarea.png" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/images/Exp-3/Exp-3_gridarea.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgdata/Exp-3/exp-4_grid_z_index.png" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/images/Exp-3/exp-4_grid_z_index.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgdata/Exp-3/exp-4_grid_zindex.png" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/images/Exp-3/exp-4_grid_zindex.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgdata/Exp-3/exp-4_gridarea.png" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/images/Exp-3/exp-4_gridarea.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgdata/Exp-3/exp-4_newname.png" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/images/Exp-3/exp-4_newname.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgdata/display.png" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/images/display.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgdata/display_flex.png" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/images/display_flex.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgdata/exp-3_button.png" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/images/exp-3_button.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgdata/exp-3_button_algin.png" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/images/exp-3_button_algin.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgdata/exp-3_button_flex_end.png" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/images/exp-3_button_flex_end.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgdata/exp-3_button_order.png" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/images/exp-3_button_order.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgdata/exp-3_flex.png" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/images/exp-3_flex.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgdata/flex-wap.png" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/images/flex-wap.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgdata/flex_space.png" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/images/flex_space.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgdata/flex_terms.png" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/images/flex_terms.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgdata/no_flex-wrap.png" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/images/no_flex-wrap.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notes/Exp-1/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/notes/Exp-1/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notes/Exp-2/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/notes/Exp-2/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notes/Exp-2/exp-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/notes/Exp-2/exp-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notes/Exp-2/exp-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/notes/Exp-2/exp-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notes/Exp-2/exp-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/notes/Exp-2/exp-3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notes/Exp-2/exp-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/notes/Exp-2/exp-4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notes/Exp-3/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/notes/Exp-3/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notes/Exp-3/exp-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/notes/Exp-3/exp-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notes/Exp-3/exp-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/notes/Exp-3/exp-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notes/Exp-3/exp-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/notes/Exp-3/exp-3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notes/Exp-3/exp-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/notes/Exp-3/exp-4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notes/Exp-4/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/notes/Exp-4/README.md" afterDir="false" />
     </list>
     <ignored path="personal-resume.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,12 +76,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="503">
-                <caret line="123" column="116" lean-forward="true" selection-start-line="123" selection-start-column="116" selection-end-line="123" selection-end-column="116" />
+              <first_editor relative-caret-position="687">
+                <caret line="173" column="6" selection-start-line="173" selection-start-column="6" selection-end-line="173" selection-end-column="6" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/JavaScript/exercises/baidu-ife/2015_spring_task02/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="839">
+                <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
               </first_editor>
               <second_editor />
             </state>
@@ -57,7 +120,11 @@
       <find>color</find>
       <find>50</find>
       <find>width</find>
+      <find>原地址</find>
     </findStrings>
+    <replaceStrings>
+      <replace>原文地址</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
@@ -117,7 +184,9 @@
         <option value="$PROJECT_DIR$/exercises/mukePhone/css/index.css" />
         <option value="$PROJECT_DIR$/exercises/mukePhone/css/animate.css" />
         <option value="$PROJECT_DIR$/exercises/mukePhone/index.html" />
+        <option value="$PROJECT_DIR$/JavaScript/notes/baidu-ife/2015_spring_task02/README.md" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/JavaScript/exercises/baidu-ife/2015_spring_task02/README.md" />
       </list>
     </option>
   </component>
@@ -130,9 +199,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="2" />
-    <option name="y" value="102" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="1622" />
+    <option name="y" value="85" />
     <option name="width" value="1440" />
     <option name="height" value="877" />
   </component>
@@ -144,6 +213,17 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="personal-resume" type="b2602c69:ProjectViewProjectNode" />
+              <item name="personal-resume" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Project Files">
           <expand>
@@ -178,42 +258,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="personal-resume" type="b2602c69:ProjectViewProjectNode" />
-              <item name="personal-resume" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="personal-resume" type="b2602c69:ProjectViewProjectNode" />
-              <item name="personal-resume" type="462c0819:PsiDirectoryNode" />
-              <item name="exercises" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="personal-resume" type="b2602c69:ProjectViewProjectNode" />
-              <item name="personal-resume" type="462c0819:PsiDirectoryNode" />
-              <item name="exercises" type="462c0819:PsiDirectoryNode" />
-              <item name="mukePhone" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="personal-resume" type="b2602c69:ProjectViewProjectNode" />
-              <item name="personal-resume" type="462c0819:PsiDirectoryNode" />
-              <item name="exercises" type="462c0819:PsiDirectoryNode" />
-              <item name="mukePhone" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="personal-resume" type="b2602c69:ProjectViewProjectNode" />
-              <item name="personal-resume" type="462c0819:PsiDirectoryNode" />
-              <item name="exercises" type="462c0819:PsiDirectoryNode" />
-              <item name="mukePhone" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -228,18 +272,18 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.常规" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/JavaScript/exercises" />
+      <recent name="$PROJECT_DIR$/CSS" />
+      <recent name="$PROJECT_DIR$/experiences/Webcolloge" />
+      <recent name="$PROJECT_DIR$/experiences/chat/imges" />
+      <recent name="$PROJECT_DIR$/experiences/Cardui/images" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/experiences/mukePhone/css" />
       <recent name="$PROJECT_DIR$/experiences/mukePhone/images" />
       <recent name="$PROJECT_DIR$/experiences" />
       <recent name="$PROJECT_DIR$/imgdata" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/experiences/Webcolloge" />
-      <recent name="$PROJECT_DIR$/experiences/chat/imges" />
-      <recent name="$PROJECT_DIR$/experiences/Cardui/images" />
-      <recent name="$PROJECT_DIR$/experiences" />
-      <recent name="$PROJECT_DIR$/Webcolloge/imgaes" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -306,7 +350,8 @@
       <workItem from="1544948017458" duration="2304000" />
       <workItem from="1545023133357" duration="46000" />
       <workItem from="1545027425468" duration="8000" />
-      <workItem from="1545197647234" duration="1060000" />
+      <workItem from="1545197647234" duration="1143000" />
+      <workItem from="1545218268071" duration="4653000" />
     </task>
     <task id="LOCAL-00001" summary="更新README文件, 新增测试代码, 新增几张截图">
       <created>1543069116116</created>
@@ -455,23 +500,31 @@
       <option name="project" value="LOCAL" />
       <updated>1544892690047</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="update">
+      <created>1545198779770</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1545198779770</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="228018000" />
+    <option name="totallyTimeSpent" value="232754000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="877" extended-state="0" />
+    <frame x="1440" y="-42" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12614517" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.09375" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="调试" order="7" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5076356" side_tool="true" weight="0.26865673" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49394417" weight="0.32935324" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32935324" />
       <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49394417" weight="0.32935324" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4923644" weight="0.26965174" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -483,7 +536,6 @@
       <window_info anchor="bottom" id="Messages" order="7" weight="0.32970297" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32935324" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -530,10 +582,10 @@
     <MESSAGE value="add new exercise &quot;Cardui&quot;" />
     <MESSAGE value="add new exercise &quot;Cardui2&quot;" />
     <MESSAGE value="add new exercise &quot;chat&quot;" />
-    <MESSAGE value="update" />
     <MESSAGE value="add new exercise mukePhone" />
     <MESSAGE value="update mukePhone" />
-    <option name="LAST_COMMIT_MESSAGE" value="update mukePhone" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -541,11 +593,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Desktop/leren-wx-20180604/css/common.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-289" />
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Desktop/leren-wx-20180604/css/h5-common.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2371" />
@@ -601,7 +648,7 @@
     <entry file="file://$PROJECT_DIR$/exercises/Webcolloge/imgaes/logo-item-2.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/notes/Exp-2/README.md">
+    <entry file="file://$PROJECT_DIR$/CSS/notes/Exp-2/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="847">
@@ -641,18 +688,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/notes/Exp-3/README.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/CSS/notes/Exp-3/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="205">
             <caret line="14" selection-start-line="14" selection-end-line="14" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>
@@ -670,7 +717,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/notes/Exp-4/README.md">
+    <entry file="file://$PROJECT_DIR$/CSS/notes/Exp-4/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="3765">
@@ -838,21 +885,25 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
           <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-          <folding>
-            <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#3;n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="text-editor" />
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="503">
-            <caret line="123" column="116" lean-forward="true" selection-start-line="123" selection-start-column="116" selection-end-line="123" selection-end-column="116" />
+          <first_editor relative-caret-position="687">
+            <caret line="173" column="6" selection-start-line="173" selection-start-column="6" selection-end-line="173" selection-end-column="6" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaScript/exercises/baidu-ife/2015_spring_task02/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="839">
+            <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
           </first_editor>
           <second_editor />
         </state>

@@ -469,7 +469,7 @@ CSS columns是很新的标准，所以需要使用前缀，并且它不被IE9及
 
 ### 12、使用 `flexbox` 进行布局
 
-具体查看练习二: [CSS弹性盒子练习笔记](experiences/EXP-2/) （原地址: <a href="https://developer.mozilla.org/zh-CN/docs/Learn/CSS/CSS_layout">学习弹性盒子</a>）
+具体查看练习二: [CSS弹性盒子练习笔记](experiences/EXP-2/) （原文地址: <a href="https://developer.mozilla.org/zh-CN/docs/Learn/CSS/CSS_layout">学习弹性盒子</a>）
 
 ---
 
