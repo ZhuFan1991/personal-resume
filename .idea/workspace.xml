@@ -1,61 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cc39a4a3-6f3f-4106-967c-6337cefdde9f" name="Default" comment="update">
-      <change afterPath="$PROJECT_DIR$/JavaScript/exercises/baidu-ife/2015_spring_task02/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgdata/Exp-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/images/Exp-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgdata/Exp-1_boxsizing.png" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/images/Exp-1_boxsizing.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgdata/Exp-1_clear.png" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/images/Exp-1_clear.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgdata/Exp-1_clearfix.png" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/images/Exp-1_clearfix.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgdata/Exp-1_column.png" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/images/Exp-1_column.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgdata/Exp-1_display.png" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/images/Exp-1_display.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgdata/Exp-1_float_exp.png" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/images/Exp-1_float_exp.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgdata/Exp-1_float_img.png" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/images/Exp-1_float_img.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgdata/Exp-1_float_left.png" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/images/Exp-1_float_left.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgdata/Exp-1_inline_block.png" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/images/Exp-1_inline_block.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgdata/Exp-1_media.png" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/images/Exp-1_media.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgdata/Exp-1_no_clearfix.png" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/images/Exp-1_no_clearfix.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgdata/Exp-1_percent.png" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/images/Exp-1_percent.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgdata/Exp-1_percent_exp.png" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/images/Exp-1_percent_exp.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgdata/Exp-1_position_absolute.png" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/images/Exp-1_position_absolute.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgdata/Exp-1_position_exp.png" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/images/Exp-1_position_exp.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgdata/Exp-1_position_fixed.png" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/images/Exp-1_position_fixed.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgdata/Exp-3/Exp-1_grid_area.png" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/images/Exp-3/Exp-1_grid_area.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgdata/Exp-3/Exp-1_gridline.png" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/images/Exp-3/Exp-1_gridline.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgdata/Exp-3/Exp-3_grid.png" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/images/Exp-3/Exp-3_grid.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgdata/Exp-3/Exp-3_grid_exp.png" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/images/Exp-3/Exp-3_grid_exp.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgdata/Exp-3/Exp-3_grid_line.png" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/images/Exp-3/Exp-3_grid_line.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgdata/Exp-3/Exp-3_gridarea.png" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/images/Exp-3/Exp-3_gridarea.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgdata/Exp-3/exp-4_grid_z_index.png" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/images/Exp-3/exp-4_grid_z_index.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgdata/Exp-3/exp-4_grid_zindex.png" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/images/Exp-3/exp-4_grid_zindex.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgdata/Exp-3/exp-4_gridarea.png" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/images/Exp-3/exp-4_gridarea.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgdata/Exp-3/exp-4_newname.png" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/images/Exp-3/exp-4_newname.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgdata/display.png" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/images/display.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgdata/display_flex.png" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/images/display_flex.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgdata/exp-3_button.png" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/images/exp-3_button.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgdata/exp-3_button_algin.png" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/images/exp-3_button_algin.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgdata/exp-3_button_flex_end.png" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/images/exp-3_button_flex_end.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgdata/exp-3_button_order.png" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/images/exp-3_button_order.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgdata/exp-3_flex.png" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/images/exp-3_flex.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgdata/flex-wap.png" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/images/flex-wap.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgdata/flex_space.png" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/images/flex_space.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgdata/flex_terms.png" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/images/flex_terms.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgdata/no_flex-wrap.png" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/images/no_flex-wrap.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notes/Exp-1/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/notes/Exp-1/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notes/Exp-2/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/notes/Exp-2/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notes/Exp-2/exp-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/notes/Exp-2/exp-1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notes/Exp-2/exp-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/notes/Exp-2/exp-2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notes/Exp-2/exp-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/notes/Exp-2/exp-3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notes/Exp-2/exp-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/notes/Exp-2/exp-4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notes/Exp-3/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/notes/Exp-3/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notes/Exp-3/exp-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/notes/Exp-3/exp-1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notes/Exp-3/exp-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/notes/Exp-3/exp-2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notes/Exp-3/exp-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/notes/Exp-3/exp-3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notes/Exp-3/exp-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/notes/Exp-3/exp-4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notes/Exp-4/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/notes/Exp-4/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="cc39a4a3-6f3f-4106-967c-6337cefdde9f" name="Default" comment="update" />
     <ignored path="personal-resume.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -92,8 +38,8 @@
         <entry file="file://$PROJECT_DIR$/JavaScript/exercises/baidu-ife/2015_spring_task02/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="839">
-                <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+              <first_editor relative-caret-position="655">
+                <caret line="39" column="1" lean-forward="true" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
               </first_editor>
               <second_editor />
             </state>
@@ -351,7 +297,7 @@
       <workItem from="1545023133357" duration="46000" />
       <workItem from="1545027425468" duration="8000" />
       <workItem from="1545197647234" duration="1143000" />
-      <workItem from="1545218268071" duration="4653000" />
+      <workItem from="1545218268071" duration="4695000" />
     </task>
     <task id="LOCAL-00001" summary="更新README文件, 新增测试代码, 新增几张截图">
       <created>1543069116116</created>
@@ -507,11 +453,18 @@
       <option name="project" value="LOCAL" />
       <updated>1545198779770</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="update">
+      <created>1545222965537</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1545222965537</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="232754000" />
+    <option name="totallyTimeSpent" value="232796000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1440" y="-42" width="1920" height="1080" extended-state="0" />
@@ -902,8 +855,8 @@
     <entry file="file://$PROJECT_DIR$/JavaScript/exercises/baidu-ife/2015_spring_task02/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="839">
-            <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+          <first_editor relative-caret-position="655">
+            <caret line="39" column="1" lean-forward="true" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
           </first_editor>
           <second_editor />
         </state>

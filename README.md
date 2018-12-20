@@ -22,7 +22,7 @@
 
 <br>
 
-- <u>[CSS网格练习笔记](CSS/notes/Exp-3/)</u> （原文地址: <a href="https://developer.mozilla.org/zh-CN/docs/Learn/CSS/CSS_layout/Grids">学习网格布局</a>） 
+- <u>[CSS网格练习笔记](CSS/notes/Exp-3/)</u> （原文地址: <a href="https://developer.mozilla.org/zh-CN/docs/Learn/CSS/CSS_layout/Grids">学习网格布局</a>）
 
 网格是一个成熟的设计工具，许多现代网站布局是基于规则网格。在本文中，我们将看看基于网格的设计，以及如何使用CSS来创建网格——两者都通过现在的工具，和刚刚开始在浏览器中可用的新技术。
 
@@ -30,7 +30,7 @@
 
 <br>
 
-- <u>[CSS媒体查询练习笔记](CSS/notes/Exp-4/)</u> （原文地址: <a href="https://developer.mozilla.org/zh-CN/docs/Web/Guide/CSS/Media_queries">学习媒体查询</a>） 
+- <u>[CSS媒体查询练习笔记](CSS/notes/Exp-4/)</u> （原文地址: <a href="https://developer.mozilla.org/zh-CN/docs/Web/Guide/CSS/Media_queries">学习媒体查询</a>）
 
 媒体查询，添加自CSS3，允许内容的呈现针对一个特定范围的输出设备而进行裁剪，而不必改变内容本身。
 
@@ -43,6 +43,12 @@
 
 - <u>[《JavaScript 高级程序设计》阅读笔记](https://github.com/ZhuFan1991/Professional-JavaScript) </u>
 
+JavaScript作用域学习笔记
+JavaScript原型学习笔记
+JavaScript闭包学习笔记
+JavaScript构造函数学习笔记
+JavaScript面向对象编程学习笔记
+JavaScript设计模式学习笔记
 
 <br>
 <br>
@@ -139,7 +145,11 @@
 
 - <u>[Javascript中this关键字详解](http://www.cnblogs.com/justany/archive/2012/11/01/the_keyword_this_in_javascript.html)</u>
 
-- <u>[递归实现深度克隆（内含JS数据类型判断，对象遍历）](https://www.jianshu.com/p/b0f323691cca)</u>（原文地址: <a href="http://blog.csdn.net/qq_27090183/article/details/50823429">ife递归实现深度克隆</a>）
+- <u>[JavaScript constructor属性详解](http://www.cnblogs.com/chenweizhen/p/6422995.html)</u>
+
+
+
+
 
 <br>
 <br>
@@ -172,6 +182,3 @@
 ### 3. 原生JavaScript实战练习
 
 - <u>[baidu-ife 2015年春季班task-02](JavaScript/exercises/baidu-ife/2015_spring_task02/) </u>（原地址: <a href="https://github.com/baidu-ife/ife/tree/master/2015_spring/task/task0002">baidu-ife</a>）
-
-
-
