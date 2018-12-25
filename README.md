@@ -2,11 +2,9 @@
 
 <br>
 <br>
-<br>
 
 ## 一、学习笔记
 
-<br>
 
 ### 1. CSS学习笔记
 
@@ -40,8 +38,15 @@
 ### 2. JavaScript学习笔记
 
 
-
 - <u>[《JavaScript 高级程序设计》阅读笔记](https://github.com/ZhuFan1991/Professional-JavaScript) </u>
+
+
+<br>
+<br>
+
+### 3. 其它笔记
+
+- <u>[正则表达式](https://github.com/ZhuFan1991/Professional-JavaScript) </u>
 
 JavaScript作用域学习笔记
 JavaScript原型学习笔记
@@ -68,13 +73,11 @@ JavaScript设计模式学习笔记
 
 ### 2. CSS
 
-<br>
 
 ##### CSS基础：
 
 - <u>[GitHub - CSS编码规范](https://github.com/ecomfe/spec/blob/master/css-style-guide.md)</u>
 
-<br>
 <br>
 
 ##### CSS布局：
@@ -109,7 +112,6 @@ JavaScript设计模式学习笔记
 
 ### 3. JavaScript
 
-<br>
 
 ##### JavaScript基础：
 
@@ -121,7 +123,6 @@ JavaScript设计模式学习笔记
 
 - <u>[100个直接可以拿来用的JavaScript实用功能代码片段](http://www.cnblogs.com/wxydigua/p/3314274.html?utm_source=wechat_session&utm_medium=social&utm_oi=718772187686789120)</u>
 
-<br>
 <br>
 
 ##### JavaScript中的事件机制:
@@ -137,6 +138,15 @@ JavaScript设计模式学习笔记
 - <u>[输入框事件监听：keydown、keyup、input](https://blog.csdn.net/yiifaa/article/details/52372022)</u>
 
 <br>
+
+##### JavaScript中的 DOM :
+
+- <u>[博客园 - JavaScript获取DOM元素位置和尺寸大小](http://www.cnblogs.com/dolphinX/archive/2012/11/19/2777756.html)</u>
+
+- <u>[阮一峰 - 用Javascript获取页面元素的位置](http://www.ruanyifeng.com/blog/2009/09/find_element_s_position_using_javascript.html)</u>
+
+
+
 <br>
 
 ##### JavaScript 进阶：
@@ -157,7 +167,6 @@ JavaScript设计模式学习笔记
 
 ## 三、实战练习
 
-<br>
 
 ### 1. PC布局练习：
 
