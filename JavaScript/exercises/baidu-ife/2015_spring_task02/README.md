@@ -15,7 +15,7 @@
 
 <br>
 
-### 任务一 JavaScript数据类型及语言基础
+### 任务一:  JavaScript数据类型及语言基础
 
 <br>
 
@@ -255,10 +255,6 @@ function cloneObject(src) {
     return newObj;
 }
 
-/*  
- *  ◆ 存在的问题：
- *    虽然代码量精简了，而且也实现了递归算法，但无法保留src的constructor属性。
- */
 
 // 测试用例：
 var srcObj = {
@@ -285,7 +281,7 @@ console.log(tarObj.b.b1[0]);    // "hello"
 
 **3、学习数组、字符串、数字等相关方法，并实现以下函数：**
 
-- 数组相关方法：
+- 数组去重实现：
 
 ```js
 // 1、对数组进行去重操作，只考虑数组中元素为数字或字符串，返回一个去重后的数组
@@ -313,7 +309,7 @@ function uniqArray(arr) {
 function uniqArray(arr) {
     var newArr = [];
     for (var i=0, k=arr.length; i<k; i++){
-      if (newArr.indexOf(arr[i]) == -1){
+      if (arr.indexOf(arr[i]) == i){
         // newArr[i] = arr[i];
         newArr.push(arr[i]);
       }
@@ -321,60 +317,101 @@ function uniqArray(arr) {
     return newArr;
 }
 
+---------------------------------------------------------------
+/*
+ *  方法三：排序后相邻去除法
+ *    实现思路：给传入的数组排序，排序后相同的值会相邻，然后遍历排序后数组时，新数组只加入不与前一值重复的值。
+ */
+ function uniqArray(arr) {
+     arr.sort();
+     var newArr = [arr[0]];
+     for (var i=1, k=arr.length; i<k; i++){
+       if (arr[i] != newArr.(newArr.length-1))){
+         // newArr[i] = arr[i];
+         newArr.push(arr[i]);
+       }
+     }
+     return newArr;
+ }
+/*  
+ *  ◆ 存在的问题：
+ *    此方法因为对arr调用了sort函数，所以会改变arr的排序。
+ */
+
+---------------------------------------------------------------
+/*
+ *  方法四：优化遍历数组法（推荐）
+ *    实现思路：双层循环，外循环表示从0到arr.length，内循环表示从i+1到arr.length。将没重复的右边值放入新数组。（检测到有重复值时终止当前循环同时进入外层循环的下一轮判断）
+ */
+function uniqArray(arr) {
+    var hash=[];
+    label:
+    for (var i = 0; i < arr.length; i++) {
+        for (var j = i+1; j < arr.length; j++) {
+            if(arr[i]===arr[j]){
+                continue label;
+            }
+        }
+        hash.push(arr[i]);
+    }
+    return hash;
+}
+
+
 // 测试用例
 var a = [1, 3, 5, 7, 5, 3];
 var b = uniqArray(a);
 console.log(b); // [1, 3, 5, 7]
 ```
 
+- 去除字符串首尾全、半角空格，table等：
 
-
-```
-// 中级班同学跳过此题
-// 实现一个简单的trim函数，用于去除一个字符串，头部和尾部的空白字符
-// 假定空白字符只有半角空格、Tab
-// 练习通过循环，以及字符串的一些基本方法，分别扫描字符串str头部和尾部是否有连续的空白字符，并且删掉他们，最后返回一个完成去除的字符串
-function simpleTrim(str) {
-    // your implement
-}
-
-// 很多同学肯定对于上面的代码看不下去，接下来，我们真正实现一个trim
+```js
 // 对字符串头尾进行空格字符的去除、包括全角半角空格、Tab等，返回一个字符串
 // 尝试使用一行简洁的正则表达式完成该题目
 function trim(str) {
-    // your implement
+    return str.replace(/^[\s\uFEFF\xa0\u3000]+|[\uFEFF\xa0\u3000\s]+$/g, "");
 }
 
-// 使用示例
+// 测试用例
 var str = '   hi!  ';
 str = trim(str);
 console.log(str); // 'hi!'
+```
 
-// 实现一个遍历数组的方法，针对数组中每一个元素执行fn函数，并将数组索引和元素作为参数传递
+- 实现一个遍历数组的方法，针对数组中每一个元素执行fn函数，并将数组索引和元素作为参数传递：
+
+```js
 function each(arr, fn) {
-    // your implement
+    for (var i=0,k=arr.length; i<k; i++){
+      fn(arr[i], i);
+    }
 }
 
-// 其中fn函数可以接受两个参数：item和index
-
-// 使用示例
+// 测试用例1
 var arr = ['java', 'c', 'php', 'html'];
 function output(item) {
     console.log(item)
 }
 each(arr, output);  // java, c, php, html
 
-// 使用示例
+// 测试用例1
 var arr = ['java', 'c', 'php', 'html'];
 function output(item, index) {
     console.log(index + ': ' + item)
 }
 each(arr, output);  // 0:java, 1:c, 2:php, 3:html
+```
 
-// 获取一个对象里面第一层元素的数量，返回一个整数
-function getObjectLength(obj) {}
+- 获取一个对象里面第一层元素的数量，返回一个整数：
 
-// 使用示例
+```js
+function getObjectLength(obj) {
+  var attribute_arr =  Object.keys(obj);
+  return attribute_arr.length;
+}
+
+// 测试用例
 var obj = {
     a: 1,
     b: 2,
@@ -384,4 +421,369 @@ var obj = {
     }
 };
 console.log(getObjectLength(obj)); // 3
+```
+
+<br>
+
+**4、学习正则表达式，并实现以下函数：**
+
+```js
+// 判断是否为邮箱地址
+function isEmail(emailStr) {
+    var pattern = /^[a-zA-Z0-9_.-]+@[a-zA-Z0-9-]+(\.[a-zA-Z0-9-]+)*\.[a-zA-Z0-9]{2,6}$/
+    if (emailStr.test(pattern)){
+      alert("格式正确")；
+      return；
+    }
+    else {
+      alert("格式错误");
+      return;
+    }
+}
+
+// 判断是否为手机号
+function isMobilePhone(phone) {
+    // your implement
+}
+```
+
+<br>
+<br>
+
+### 任务二:  DOM
+
+<br>
+
+#### 期望达成
+
+- 熟练掌握DOM的相关操作
+
+<br>
+
+#### 任务实现
+
+**1、完成以下任务：**
+
+- 为element增加一个样式名为newClassName的新样式：
+
+```js
+function addClass(element, newClassName) {
+    // 判断class属性是否为空
+    if (element.className === '') {
+        element.className = className;
+    }
+    else {
+        var arrClassName = obj.className.split(' ');
+
+        //如果要添加的class在原有的class中不存在
+        if (arrClassName.indexOf(className) === -1) {                         
+            obj.className += ' ' + className;
+        }
+        //如果要添加的class在原有的class中存在，则不操作
+        else {
+            return;
+        }
+    }
+}
+```
+
+- 移除element中的样式oldClassName：
+
+```
+function removeClass(element, oldClassName) {
+    // 判断class属性是否为空
+    if (element.className === ''){
+        return;
+    }
+    else {
+        var arrClassName = obj.className.split(' ');
+        var classIndex = arrClassName.indexOf(oldClassName);
+
+        // 判断要移除的class属性是否存在
+        if (classIndex != -1){
+            arrClassName.splice(classIndex, 1);
+            element.class = arrClassName.join(" ");
+        }
+        else {
+            return;
+        }
+    }
+}
+```
+
+- 判断siblingNode和element是否为同一个父元素下的同一级的元素，返回bool值：
+
+```js
+function isSiblingNode(element, siblingNode) {
+    return element.parentNode === siblingNode.parentNode;
+}
+```
+
+- 获取element相对于浏览器窗口的位置，返回一个对象{x, y}：
+
+```js
+function getPosition(element) {
+    var actualTop = element.offsetTop;
+    var actualLeft = element.offsetLeft;
+    var current = element.offsetParent;
+
+    while (current !== null){
+        actualTop += current. offsetTop;
+        actualLeft += current.offsetLeft;
+        current = current.offsetParent;
+    }
+
+    // document.compatMode用来判断当前浏览器采用的渲染方式: BackCompat：标准兼容模式关闭
+    if (document.compatMode == "BackCompat"){
+        var elementScrollTop=document.body.scrollTop;
+        var elementScrollLeft=document.body.scrollLeft;
+    }
+    else {
+        var elementScrollTop=document.documentElement.scrollTop;
+        var elementScrollLeft=document.documentElement.scrollLeft;
+    }
+
+    return {actualLeft-elementScrollLeft, actualTop-elementScrollTop};
+}
+```
+
+<br>
+<br>
+
+### 任务三:  事件
+
+<br>
+
+#### 期望达成
+
+- 熟悉DOM事件相关知识
+
+<br>
+
+#### 任务实现
+
+**1、封装自己的小jQuery库来实现对于JavaScript事件的学习：**
+
+- 事件绑定：
+
+```js
+function addEvent(element, event, listener) {
+    // 兼容除低版本ie以外的浏览器，false表示冒泡阶段
+    if (element.addEventListener) {
+        element.addEventListener(event,listener,false);
+    }
+    // 兼容低版本ie浏览器
+    else if(element.attachEvent){
+        element.attachEvent("on"+event,listener);
+    }
+    else {
+      element["on"+event] = listener;
+    }
+}
+```
+
+- 事件移除：
+
+```js
+function removeEvent(element, event, listener) {
+    if (element.addEventListener) {
+        element.removeEventListener(event,listener,false);
+    }
+    else if(element.attachEvent){
+        element.detachEvent("on"+event,listener);
+    }
+    else {
+      element["on"+event] = null;
+    }
+}
+```
+
+<br>
+
+**2、实现一些方便的事件方法：**
+
+- 实现对click事件的绑定：
+
+```js
+function addClickEvent(element, listener) {
+    addEvent(element,'click',listener);
+}
+```
+
+- 实现对于按Enter键时的事件绑定
+
+```js
+function addEnterEvent(element, listener) {
+    addEvent(element, "keydown", function(event) {
+        // enter 键的 keyCode 为 13
+        if (event.keyCode == 13) {
+            listener();
+        }
+    });
+}
+```
+
+<br>
+
+**3、实现事件代理的方法：**
+
+```js
+function delegateEvent(element,tag,eventName,listener){
+    addEvent(element, eventName, function(event){
+        var event = event || window.event;
+        var target = event.target || event.srcElement;
+        if(target.nodeName.toLowerCase() == tag.toLowerCase()) {
+            listener;
+        }
+    });
+}
+```
+
+<br>
+<br>
+
+### 任务四:  BOM
+
+<br>
+
+#### 期望达成
+
+- 了解BOM的基础知识
+
+<br>
+
+#### 任务实现
+
+**1、完成以下任务：**
+
+- 判断是否为IE浏览器，返回-1或者版本号：
+
+```js
+function isIE() {
+    var userAgent = navigator.userAgent; //取得浏览器的userAgent字符串  
+    var isIE = userAgent.indexOf("compatible") > -1 && userAgent.indexOf("MSIE") > -1; //判断是否IE<11浏览器  
+    var isEdge = userAgent.indexOf("Edge") > -1 && !isIE; //判断是否IE的Edge浏览器  
+    var isIE11 = userAgent.indexOf('Trident') > -1 && userAgent.indexOf("rv:11.0") > -1;
+    if(isIE) {
+        var reIE = new RegExp("MSIE (\\d+\\.\\d+);");
+        reIE.test(userAgent);
+        var fIEVersion = parseFloat(RegExp["$1"]);
+        if(fIEVersion == 7) {
+            return 7;
+        } else if(fIEVersion == 8) {
+            return 8;
+        } else if(fIEVersion == 9) {
+            return 9;
+        } else if(fIEVersion == 10) {
+            return 10;
+        } else {
+            return 6;//IE版本<=7
+        }   
+    } else if(isEdge) {
+        return 'edge';//edge
+    } else if(isIE11) {
+        return 11; //IE11  
+    }else{
+        return -1;//不是ie浏览器
+    }
+}
+```
+
+- 设置cookie：
+
+```js
+function setCookie(cookieName, cookieValue, expiredays) {
+    var cookie = cookieName + "=" + encodeURIComponent(cookieValue);
+    if (typeof expiredays === "number") {
+        cookie += ";max-age=" + (expiredays * 60 * 60 * 24);
+    }
+    document.cookie = cookie;
+}
+```
+
+- 获取cookie：
+
+```js
+function getCookie(cookieName) {
+    var cookie = {};
+    var all = document.cookie;
+    if (all==="") {
+        return cookie;
+    }
+    var list = all.split("; ");
+    for (var i = 0; i < list.length; i++) {
+        var p = list[i].indexOf("=");
+        var name = list[i].substr(0, p);
+        var value = list[i].substr(p + 1);
+        value = decodeURIComponent(value);
+        cookie[name] = value;
+    }
+    return cookie;
+}
+```
+
+<br>
+<br>
+
+### 任务五:  AJAX
+
+<br>
+
+#### 期望达成
+
+- 掌握Ajax的实现方式
+
+<br>
+
+#### 任务实现
+
+**1、学习Ajax，并尝试自己封装一个Ajax方法。实现如下方法：**
+
+options是一个对象，里面可以包括的参数为：
+
+* type: post或者get，可以有一个默认值
+* data: 发送的数据，为一个键值对象或者为一个用&连接的赋值字符串
+* onsuccess: 成功时的调用函数
+* onfail: 失败时的调用函数
+
+```js
+function ajax(url, options) {
+    var xmlhttp;
+    if (window.XMLHttpRequest)
+    {   // code for IE7+, Firefox, Chrome, Opera, Safari
+        xmlhttp=new XMLHttpRequest();
+    }
+    else
+    {   // code for IE6, IE5
+        xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+    }
+
+    xmlhttp.open("GET","url",true);
+    xmlhttp.send();
+
+    xmlhttp.onreadystatechange=function(){
+        if (xmlhttp.readyState==4 && xmlhttp.status==200){
+            options.onsuccess(xmlhttp.responseText, xmlhttp.responseXML);
+        }
+        else {
+            if (options.onfail) {
+                options.onfail();
+            }
+        }
+    }
+}
+
+// 测试用例：
+ajax(
+    'http://localhost:8080/server/ajaxtest',
+    {
+        data: {
+            name: 'simon',
+            password: '123456'
+        },
+        onsuccess: function (responseText, xhr) {
+            console.log(responseText);
+        }
+    }
+);
 ```
