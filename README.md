@@ -146,6 +146,19 @@ JavaScript设计模式学习笔记
 - <u>[阮一峰 - 用Javascript获取页面元素的位置](http://www.ruanyifeng.com/blog/2009/09/find_element_s_position_using_javascript.html)</u>
 
 
+<br>
+
+##### JavaScript中的 BOM :
+
+- <u>[详说 Cookie, LocalStorage 与 SessionStorage](http://jerryzou.com/posts/cookie-and-web-storage/)</u>
+
+<br>
+
+##### JavaScript中的 AJAX :
+
+- <u>[W3school - AJAX学习](http://www.w3school.com.cn/ajax/ajax_intro.asp)</u>
+
+- <u>[Comet：基于 HTTP 长连接的“服务器推”技术](https://www.ibm.com/developerworks/cn/web/wa-lo-comet/)</u>
 
 <br>
 
