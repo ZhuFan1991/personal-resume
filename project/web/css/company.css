@@ -1,0 +1,21 @@
+.public-contain >.company-info {
+	position: relative;
+
+	width: 100%;
+	padding-top: 100px;
+}
+
+.public-contain > .company-info > p {
+	font-size: 20px;
+	line-height: 2;
+}
+
+.public-contain > .dealer-info > p {
+	font-size: 20px;
+	line-height: 2;
+}
+
+.public-contain > .account-info > p {
+	font-size: 20px;
+	line-height: 2;
+}
