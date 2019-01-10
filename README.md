@@ -171,6 +171,17 @@ JavaScript设计模式学习笔记
 - <u>[JavaScript constructor属性详解](http://www.cnblogs.com/chenweizhen/p/6422995.html)</u>
 
 
+<br>
+<br>
+
+
+
+### 4. Vue.js
+
+
+##### Vue.js基础：
+
+- <u>[尤雨溪 - 新手向：Vue 2.0 的建议学习顺序](https://zhuanlan.zhihu.com/p/23134551)</u>
 
 
 
